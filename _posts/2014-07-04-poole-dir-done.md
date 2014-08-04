@@ -50,7 +50,7 @@ baseurl:          http://snowdj.github.io/poole/
 {% endhighlight %}
 
 
-It tell github that what is the base url for whole blog and in the blog we add archive and about two pages.
+It tells github that what is the base url for whole blog and in the blog we add archive and about two pages.
 
 ### Add the two page in config.yml
 
@@ -163,6 +163,29 @@ To do that, I modified the file _layouts/default.html to include the line:
 "By setting up the code this way, I can enabled commenting on a page-by-page basis. All I have to do is set "comments: True" in the YAML header of the post.""
 
 then created a file _includes/comments.html which includes the code given to me by Disqus:
+
+
+
+## baseurl
+
+baseurl is necessary for the jekyll-bootstrap's index.html.   
+
+## layout and include and css
+
+defualt page post html should be in layout and include. all css in the asset/ theme respectly.
+
+
+## layout and nav bar
+
+It can be changed or add a seach bar like in bootstrap3.
+
+The basic logic is page render start from layout, and then go to include, and go to the asset/theme/ to find css. That is all.
+If want to change theme, the only thing needed to do now is to change files in layouts.
+
+Here is the how to set a seach bar. It did not work in my case. http://getbootstrap.com/components/#navbar-forms
+
+It takes too much time to figure out. 
+
 
 That's all. 
 
