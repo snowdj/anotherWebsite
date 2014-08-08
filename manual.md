@@ -1,6 +1,6 @@
 ---
 layout : page
-title : User Manual
+title : Manual
 subtitle : Obviously a work in progress
 order : 1
 ---
