@@ -279,7 +279,7 @@ navbar :
 #       font_awesome_icon : icon-twitter
 #       url : https://www.twitter.com/dereckcurry
 social_links :
-  follow_name : snowdj For Updates
+  follow_name : Evergreen
   links :
     - link :
       enabled : false
@@ -324,7 +324,7 @@ social_links :
 #     name : gh-pages-blog
 #     url : https://github.com/thedereck/gh-pages-blog
 github_projects :
-  header : GitHub Projects
+  header : Projects
   projects :
   - project :
     name : Evergreen
@@ -353,7 +353,7 @@ github_projects :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : Great gh-pages-blog Sites!
+  header : Great Sites!
   links :
     - link :
       name : The snowdj
