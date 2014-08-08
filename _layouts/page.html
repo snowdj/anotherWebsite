@@ -1,8 +1,9 @@
----
-layout: default
----
-
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
-</div>
+<!DOCTYPE html>
+{% assign layout_page_html = null %}
+{% capture layout_page_html %}
+	<html lang="en">
+		{% include head/page.html %}
+		{% include body/page.html %}
+	</html>
+{% endcapture %}
+{{ layout_page_html | remove:'	' }}
