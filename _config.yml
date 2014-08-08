@@ -279,7 +279,7 @@ navbar :
 #       font_awesome_icon : icon-twitter
 #       url : https://www.twitter.com/dereckcurry
 social_links :
-  follow_name : Evergreen
+  follow_name : me
   links :
     - link :
       enabled : false
@@ -353,7 +353,7 @@ github_projects :
 #       name : Lowcountry Blues Club
 #       url : http://lowcountrybluesclub.blogspot.com
 external_links :
-  header : Great Sites!
+  header : Great Sites
   links :
     - link :
       name : The snowdj
