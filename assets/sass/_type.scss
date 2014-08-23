@@ -1,0 +1,130 @@
+/* ==========================================================================
+   TYPE
+   - Meat
+   - Headings
+   - Media Query adjustments
+   ========================================================================== */
+
+/* Meat
+   ========================================================================== */
+
+p, iframe {
+    font-size: $fsp;
+    line-height: $lh;
+    font-feature-settings: "liga";
+        -webkit-font-feature-settings: "liga";
+        -moz-font-feature-settings: "liga";
+        -ms-font-feature-settings: "liga";
+        -o-font-feature-settings: "liga";
+}
+
+.context, .intro, .rating {
+    font-size: ($fs3 + $fs4) / 2;
+    line-height: 1.4;
+}
+
+.post ul li {
+    font-size: $fs_base;
+    line-height: $lh;
+    margin-bottom: $lh/3;
+}
+
+/* Headings
+   ========================================================================== */
+
+h1, .h1 {
+    font-size: $fs2;
+    font-weight: 600;
+}
+
+h2, .h2 {
+    font-size: $fs3;
+}
+
+h3, .h3 {
+    font-size: $fs4;
+    font-style: italic;
+}
+
+h4, .h4 {
+    font-size: $fsp;
+}
+
+h5, .h5 {
+    font-size: $fs5;
+}
+
+h6, .h6 {
+    font-size: $fs5;
+}
+
+.meta {
+    font-size: $fs6;
+}
+
+blockquote, blockquote p {
+    font-size: $fs_base;
+}
+
+.archive input {
+    font-size: $fs2
+}
+
+// Iphone
+
+@media only screen and (max-width: $breakpoint-1-max-width) {
+
+    p, iframe {
+        font-size: $fs5;
+        line-height: $lhsmall;
+        padding-bottom: $lhsmall;
+    }
+
+    .context, .intro {
+        font-size: $fs_base;
+        line-height: 1.4;
+    }
+
+    .post ul li, .post ol li{
+        font-size: $fs5;
+        line-height: $lhsmall;
+        margin-bottom: $lhsmall/2;
+    }
+
+    h1, .h1 {
+        font-size: $fs3;
+        font-weight: 400;
+    }
+    h2, .h2 {
+        font-size: $fs4;
+        font-weight: 600;
+    }
+    h3, .h3 {
+        font-size: $fs_base;
+        font-style: italic;
+    }
+    h4, .h4 {
+        font-size: $fs5;
+    }
+    h5, .h5 {
+        font-size: $fs6;
+    }
+    h6, .h6 {
+        font-size: $fs6;
+    }
+
+    .meta {
+        font-size: $fs6;
+    }
+
+    blockquote, blockquote p {
+        font-size: $fs5;
+    }
+
+    .archive input {
+        font-size: $fs3
+    }
+
+}
+
+

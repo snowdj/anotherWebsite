@@ -2,10 +2,12 @@
 layout : post
 title : Stat is hard to understand
 subtitle : The intuition is important
-category : stat
+category : math
 tags :
   - stat
   - intuition
+image:
+    feature: autumn.jpg
 ---
 
 I am reviewing statistics.

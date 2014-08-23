@@ -1,0 +1,76 @@
+/* ==========================================================================
+   VARIABLES
+   ========================================================================== */
+
+/* Colors
+   ========================================================================== */
+
+$black: #3b3b3b;
+$white: #f9f9f9;
+$grey-dark: #222;
+$grey-medium: #999;
+$grey-light: #d9d9d9;
+$blue-light: #8AB9D1;
+$blue-dark: #24536B;
+
+/* Hilight */
+$hilite: #fffbd7;
+
+/* Accent Colors */
+$link: $blue-light;
+$accent: $blue-dark;
+
+/* Social media colors */
+$facebook_blue: #3b5998;
+$twitter_blue: #4398cd;
+$github_black: #171515;
+$email_red: #d64937;
+$amazon_gold: #fc9a18;
+
+/* Typography
+   ========================================================================== */
+
+$sans: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+$serif: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
+
+/* Type Scale
+   ========================================================================== */
+
+$fs0: 64px;
+$fs1: 48px;
+$fs2: 36px;
+$fs3: 32px;
+$fs4: 24px;
+
+$fs_base: 22px;
+
+$fsp: 20px;
+
+$fs5: 16px;
+$fs6: 12px;
+
+// Line Height
+
+$lh: 32px;
+$lhsmall: 24px;
+
+// Sizing
+$footerHeight: 320px;
+
+// Griddit
+
+/* Break Points
+   ========================================================================== */
+
+/* Mobile */
+$breakpoint-1-max-width: 480px;
+
+/* Tablet */
+$breakpoint-2-max-width: 800px;
+$breakpoint-3-max-width: 1200px;
+
+/* Style Tidbits
+   ========================================================================== */
+
+$borderR: 4px;
+

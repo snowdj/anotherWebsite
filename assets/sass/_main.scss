@@ -1,0 +1,25 @@
+---
+permalink: assets/css/style.css
+---
+
+/* ==========================================================================
+   Imports
+   ========================================================================== */
+
+// Typefaces
+@import "calendas";
+@import "source_sans_pro";
+@import "fontawesome/font-awesome";
+
+// Other stylesheets (remember that order matters)
+@import "syntax";
+@import "normalize";
+@import "mixins";
+@import "variables";
+@import "grid";
+@import "type";
+@import "styles";
+@import "logos";
+
+// Remove the definition below for a pixel-based layout
+$total-width: 100%;

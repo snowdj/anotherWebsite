@@ -2,10 +2,12 @@
 layout : post
 title : Approximate solution
 subtitle : The computer treat number in a different way from us
-category : computer science
+category : programming
 tags :
   - computer science
   - Approximate
+image:
+    feature: typewriter.jpg
 ---
 
 Python treat float computing often in a approximate way.
