@@ -1,6 +1,6 @@
 ---
 layout: blog-category
-permalink: /blog/everything-else/index.html
+permalink: /everything-else/index.html
 title: "Everything else"
 image:
     feature: silhouette_f.jpg

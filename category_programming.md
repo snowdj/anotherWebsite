@@ -1,6 +1,6 @@
 ---
 layout: blog-category
-permalink: /blog/programming/index.html
+permalink: /programming/index.html
 title: "Programming"
 image:
     feature: typerwriter.jpg

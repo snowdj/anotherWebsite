@@ -1,6 +1,6 @@
 ---
 layout: blog-category
-permalink: /blog/math/index.html
+permalink: /math/index.html
 title: "Math"
 image:
     feature: silhouette_f.jpg
