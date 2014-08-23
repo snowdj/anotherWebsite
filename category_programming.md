@@ -3,7 +3,7 @@ layout: blog-category
 permalink: /programming/index.html
 title: "Programming"
 image:
-    feature: typerwriter.jpg
+    feature: typewriter.jpg
 ---
 
 <div>

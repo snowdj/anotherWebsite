@@ -7,7 +7,7 @@ image:
 ---
 
 <ol class="categories-list">
-  <li><a href="{{ site.url }}/blog/math">Math</a></li>
-  <li><a href="{{ site.url }}/blog/programming">Programming</a></li> 
-  <li><a href="{{ site.url }}/blog/everything-else">Everything else</a></li>
+  <li><a href="{{ site.url }}/math">Math</a></li>
+  <li><a href="{{ site.url }}/programming">Programming</a></li> 
+  <li><a href="{{ site.url }}/everything-else">Everything else</a></li>
 </ol>
