@@ -44,7 +44,6 @@ ipython notebook --profile julia
     Gadfly Homepage – Here | Example 1 Here  | Code Here
     Graphics with Winston – Notes Here - Example Code Here
 
-
 Why use F#?
 Why you should consider using F# for your next project
 http://fsharpforfunandprofit.com/why-use-fsharp/
