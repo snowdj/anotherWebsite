@@ -33,16 +33,16 @@ links:
   - title: Photography
     url: /photography
   - title: Math
-    url: /blog/math
+    url: /math
   - title: Programming
-    url: /blog/programming      
+    url: /programming      
   - title: About
     url: /about
   - title: Other
-    url: /blog/everything-else    
+    url: /everything-else    
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Sao_Paulo
+timezone:    
 future:      true
 highlighter: pygments
 markdown:    kramdown
